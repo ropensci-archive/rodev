@@ -5,7 +5,6 @@ test_that("use_repostatus_badge checks whether the status exists", {
                "repostatus.org")
 })
 
-test_that("use_repostatus_badge outputs a message", {
-  expect_message(use_repostatus_badge("wip"),
-               "Please copy this to your README")
+test_that("use_repostatus_badge doesn't fail", {
+  expect_output(use_repostatus_badge("wip"))
 })

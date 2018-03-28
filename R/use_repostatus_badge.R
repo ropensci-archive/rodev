@@ -6,6 +6,12 @@ use_repostatus_badge <- function(status){
   }
 
   md_code <- repostatus_badges$md_code[repostatus_badges$status == status]
-  message("Please copy this to your README:\n", md_code)
+  # probably not a good way to use usethis
+  usethis:::todo(
+    "Add a ",
+    status,
+    " repostatus.org badge by adding the following line to your README:"
+  )
+  usethis:::code_block(md_code)
 }
 
