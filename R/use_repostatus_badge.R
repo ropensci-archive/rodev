@@ -1,3 +1,12 @@
+#' Use repostatus.org Badge
+#'
+#' @param status current status of the project, cf \url{repostatus.org}
+#'
+#' @return It will help you add the repostatus.org badge to your README.
+#' @export
+#'
+#' @examples
+#' use_repostatus_badge("wip")
 use_repostatus_badge <- function(status){
   # inspired by https://github.com/r-lib/usethis/blob/master/R/badge.R
   # so probably needs proper credit!
