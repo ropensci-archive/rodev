@@ -1,8 +1,11 @@
 {
-  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
   "@type": "SoftwareSourceCode",
   "identifier": "rodev",
-  "description": "What the package does (one paragraph).",
+  "description": "The package doesn't do much at the moment.",
   "name": "rodev: Helper for rOpenSci Package Developpers",
   "codeRepository": "https://github.com/ropenscilabs/rodev",
   "issueTracker": "https://github.com/ropenscilabs/rodev/issues",
@@ -71,5 +74,5 @@
   "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
   "developmentStatus": "wip",
   "readme": "https://github.com/ropenscilabs/rodev/blob/master/README.md",
-  "fileSize": "3.857KB"
+  "fileSize": "3.846KB"
 }
