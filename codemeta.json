@@ -1,0 +1,75 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "rodev",
+  "description": "What the package does (one paragraph).",
+  "name": "rodev: Helper for rOpenSci Package Developpers",
+  "codeRepository": "https://github.com/ropenscilabs/rodev",
+  "issueTracker": "https://github.com/ropenscilabs/rodev/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.4.4",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.4.4 (2018-03-15)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Maëlle",
+      "familyName": "Salmon",
+      "email": "maelle.salmon@yahoo.se",
+      "@id": "https://orcid.org/0000-0002-2815-0399"
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Maëlle",
+    "familyName": "Salmon",
+    "email": "maelle.salmon@yahoo.se",
+    "@id": "https://orcid.org/0000-0002-2815-0399"
+  },
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "covr",
+      "name": "covr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "usethis",
+      "name": "usethis",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    }
+  ],
+  "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
+  "developmentStatus": "wip",
+  "readme": "https://github.com/ropenscilabs/rodev/blob/master/README.md",
+  "fileSize": "3.857KB"
+}
