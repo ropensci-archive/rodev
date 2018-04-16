@@ -35,44 +35,25 @@
     "@id": "https://orcid.org/0000-0002-2815-0399"
   },
   "softwareSuggestions": [
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "testthat",
-      "name": "testthat",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Central R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      }
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "covr",
-      "name": "covr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Central R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      }
-    }
+    [["SoftwareApplication"], ["SoftwareApplication"]],
+    [["testthat"], ["covr"]],
+    [["testthat"], ["covr"]],
+    [{"@id":["https://cran.r-project.org"],"@type":["Organization"],"name":["Central R Archive Network (CRAN)"],"url":["https://cran.r-project.org"]}, {"@id":["https://cran.r-project.org"],"@type":["Organization"],"name":["Central R Archive Network (CRAN)"],"url":["https://cran.r-project.org"]}]
   ],
   "softwareRequirements": [
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "usethis",
-      "name": "usethis",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Central R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      }
-    }
+    [["SoftwareApplication"], ["SoftwareApplication"], ["SoftwareApplication"]],
+    [["usethis"], ["rmarkdown"], ["rstudioapi"]],
+    [["usethis"], ["rmarkdown"], ["rstudioapi"]],
+    [{"@id":["https://cran.r-project.org"],"@type":["Organization"],"name":["Central R Archive Network (CRAN)"],"url":["https://cran.r-project.org"]}, {"@id":["https://cran.r-project.org"],"@type":["Organization"],"name":["Central R Archive Network (CRAN)"],"url":["https://cran.r-project.org"]}, {"@id":["https://cran.r-project.org"],"@type":["Organization"],"name":["Central R Archive Network (CRAN)"],"url":["https://cran.r-project.org"]}]
   ],
   "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
   "developmentStatus": "wip",
   "readme": "https://github.com/ropenscilabs/rodev/blob/master/README.md",
-  "fileSize": "3.846KB"
+  "fileSize": "4.998KB",
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "rOpenSci"
+    }
+  ]
 }
