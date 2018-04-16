@@ -14,7 +14,10 @@ Suggests:
 Imports: 
     usethis,
     rmarkdown,
-    rstudioapi
+    rstudioapi,
+    yaml,
+    stringr,
+    gh
 URL: https://github.com/ropenscilabs/rodev
 BugReports: https://github.com/ropenscilabs/rodev/issues
 RoxygenNote: 6.0.1.9000
