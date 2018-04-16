@@ -20,5 +20,5 @@ Your post below, the metadata above.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      fig.path = "images")
+                      fig.path = "images/")
 ```
