@@ -2,5 +2,6 @@
 
 export(create_post_project)
 export(prepare_fork)
+export(read_pkg_guide)
 export(use_repostatus_badge)
 export(use_review_badge)
