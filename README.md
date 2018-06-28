@@ -30,6 +30,12 @@ read_pkg_guide()
 
 # add rOpenSci as a funder (for staff packages)
 add_ro_fnd()
+
+# add templates for issues, PR and CONTRIBUTING
+use_issue_template()
+use_pull_request_template()
+# write the package name
+use_contributing_template(package_name = "rodev")
 ```
 
 See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.

@@ -181,7 +181,7 @@
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=usethis"
+      "sameAs": "https://github.com/r-lib/usethis"
     },
     {
       "@type": "SoftwareApplication",
@@ -194,12 +194,24 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=desc"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "fs",
+      "name": "fs",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=fs"
     }
   ],
   "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
   "developmentStatus": "wip",
   "readme": "https://github.com/ropenscilabs/rodev/blob/master/README.md",
-  "fileSize": "7.655KB",
+  "fileSize": "10.184KB",
   "funder": [
     {
       "@type": "Organization",
