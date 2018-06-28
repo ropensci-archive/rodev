@@ -27,6 +27,9 @@ use_ro_footer()
 
 # browse the packaging guide
 read_pkg_guide()
+
+# add rOpenSci as a funder (for staff packages)
+add_ro_fnd()
 ```
 
 See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.

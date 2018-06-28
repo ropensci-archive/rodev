@@ -2,8 +2,15 @@ Package: rodev
 Version: 0.0.0.9000
 Title: Helper for rOpenSci Package Developpers
 Description: The package doesn't do much at the moment.
-Authors@R: c(person("Maëlle", "Salmon", email = "maelle.salmon@yahoo.se", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2815-0399")),
-             person("rOpenSci", role = c("fnd")))
+Authors@R: 
+    c(person(given = "Maëlle",
+             family = "Salmon",
+             role = c("aut", "cre"),
+             email = "maelle.salmon@yahoo.se",
+             comment = c(ORCID = "0000-0002-2815-0399")),
+      person(given = "rOpenSci",
+             role = "fnd",
+             comment = "https://ropensci.org/"))
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
