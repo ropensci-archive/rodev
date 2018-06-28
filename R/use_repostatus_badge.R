@@ -14,13 +14,9 @@ use_repostatus_badge <- function(status){
     stop("The status you input is not a proper repostatus.org status at least when this package version was released. Please have a look at repostatus_badges") # nolint
   }
 
-  md_code <- rodev::repostatus_badges$md_code[rodev::repostatus_badges$status == status]
-  # probably not a good way to use usethis
-  todo(
-    "Add a ",
-    status,
-    " repostatus.org badge by adding the following line to your README:"
-  )
-  code_block(md_code)
+  badge_df <- rodev::repostatus_badges[rodev::repostatus_badges$status == status,]
+  usethis::use_badge(badge_df$name,
+                     href = badge_df$href,
+                     src = badge_df$src)
 }
 

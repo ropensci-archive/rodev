@@ -1,3 +1,23 @@
+get_name <- function(md_code){
+  name <- stringr::str_extract(md_code, "\\[\\!\\[(.*?)\\]")
+  name <- stringr::str_remove(name, "\\[\\!\\[")
+  name <- stringr::str_remove(name, "\\]")
+  name
+}
+
+get_src <- function(md_code){
+  src <- stringr::str_extract(md_code, "\\]\\(http(.*?)\\)")
+  src <- stringr::str_remove(src, "\\]\\(")
+  src <- stringr::str_remove(src, "\\)")
+  src
+}
+
+get_href <- function(md_code){
+  href <- stringr::str_extract(md_code, "#[a-z]*")
+  href <- paste0("http://www.repostatus.org/", href)
+  href
+}
+
 library("magrittr")
 # in this script I want to get
 # possible badges and their md
@@ -56,10 +76,15 @@ get_badge_code <- function(status){
     stringr::str_replace("â€“", "–")
 
   tibble::tibble(status = status,
-                 md_code = md_code)
+                 md_code = md_code,
+                 name = get_name(md_code),
+                 src = get_src(md_code),
+                 href = get_href(md_code))
 }
 
 repostatus_badges <- purrr::map_df(status, get_badge_code)
+
+
 
 usethis::use_data(repostatus_badges, compress = "gzip",
                   overwrite = TRUE)

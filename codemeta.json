@@ -170,12 +170,24 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=clisymbols"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "usethis",
+      "name": "usethis",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=usethis"
     }
   ],
   "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
   "developmentStatus": "wip",
   "readme": "https://github.com/ropenscilabs/rodev/blob/master/README.md",
-  "fileSize": "6.795KB",
+  "fileSize": "6.365KB",
   "funder": [
     {
       "@type": "Organization",
