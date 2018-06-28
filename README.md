@@ -32,10 +32,7 @@ read_pkg_guide()
 add_ro_fnd()
 
 # add templates for issues, PR and CONTRIBUTING
-use_issue_template()
-use_pull_request_template()
-# write the package name
-use_contributing_template(package_name = "rodev")
+use_ro_github(package_name = "blabla")
 ```
 
 See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.

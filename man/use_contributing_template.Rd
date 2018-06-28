@@ -6,9 +6,6 @@
 \usage{
 use_contributing_template(package_name)
 }
-\arguments{
-\item{package_name}{Package name}
-}
 \description{
 Use CONTRIBUTING template
 }
