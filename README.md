@@ -13,13 +13,23 @@ You can install the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("ropenscilabs/rodev")
 ```
-## Example
-
-This is a basic example which shows you how to solve a common problem (using `usethis` style.R for now):
+## Functions
 
 ``` r
-rodev::use_repostatus_badge("wip")
+# add a repostatus.org badge
+use_repostatus_badge("wip")
+
+# get the peer-review badge corresponding to onboarding issue 24
+use_review_badge(24)
+
+# get rOpenSci footer
+use_ro_footer()
+
+# browse the packaging guide
+read_pkg_guide()
 ```
+
+See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.
 
 ## Meta
 
