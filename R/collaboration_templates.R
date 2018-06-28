@@ -28,8 +28,8 @@ use_pull_request_template <- function(){
 #'
 use_contributing_template <- function(package_name){
   fs::dir_create(".github")
-  usethis::use_template(template = "CONTRIBUTING_template.md",
-                        save_as = file.path(".github", "CONTRIBUTING_template.md"),
+  usethis::use_template(template = "CONTRIBUTING.md",
+                        save_as = file.path(".github", "CONTRIBUTING.md"),
                         package = "rodev",
                         data = list(package = package_name))
 }
