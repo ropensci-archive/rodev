@@ -31,7 +31,7 @@ use_contributing_template <- function(package_name){
 
 }
 
-#' @Title Add templates in .github
+#' @title Add templates in .github
 #' @param package_name Package name
 #'
 #' @export
