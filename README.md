@@ -15,7 +15,7 @@ devtools::install_github("ropenscilabs/rodev")
 ```
 ## Example
 
-This is a basic example which shows you how to solve a common problem (using `usethis` internal functions for now):
+This is a basic example which shows you how to solve a common problem (using `usethis` style.R for now):
 
 ``` r
 rodev::use_repostatus_badge("wip")

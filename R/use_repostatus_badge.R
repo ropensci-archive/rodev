@@ -16,11 +16,11 @@ use_repostatus_badge <- function(status){
 
   md_code <- rodev::repostatus_badges$md_code[rodev::repostatus_badges$status == status]
   # probably not a good way to use usethis
-  usethis:::todo(
+  todo(
     "Add a ",
     status,
     " repostatus.org badge by adding the following line to your README:"
   )
-  usethis:::code_block(md_code)
+  code_block(md_code)
 }
 

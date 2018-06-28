@@ -15,8 +15,8 @@ use_review_badge <- function(onboarding_issue_id){
                        ")")
 
   # probably not a good way to use usethis
-  usethis:::todo(
+  todo(
     "Add your package onboarding badge by adding the following line to your README:"
   )
-  usethis:::code_block(md_code)
+  code_block(md_code)
 }

@@ -4,7 +4,7 @@ Title: Helper for rOpenSci Package Developpers
 Description: The package doesn't do much at the moment.
 Authors@R: c(person("Maëlle", "Salmon", email = "maelle.salmon@yahoo.se", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2815-0399")),
              person("rOpenSci", role = c("fnd")))
-License: MIT + file LICENSE
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
@@ -12,12 +12,15 @@ Suggests:
     testthat,
     covr
 Imports: 
-    usethis,
     rmarkdown,
     rstudioapi,
     yaml,
     stringr,
-    gh
+    gh,
+    glue,
+    clipr,
+    crayon,
+    clisymbols
 URL: https://github.com/ropenscilabs/rodev
 BugReports: https://github.com/ropenscilabs/rodev/issues
 RoxygenNote: 6.0.1.9000
