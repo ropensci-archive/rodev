@@ -7,6 +7,7 @@ use_issue_template <- function(){
   usethis::use_template(template = "issue_template.md",
                         save_as = file.path(".github", "issue_template.md"),
                         package = "rodev")
+  usethis::use_build_ignore(".github")
 }
 
 #' Use pull request template
@@ -18,6 +19,7 @@ use_pull_request_template <- function(){
   usethis::use_template(template = "pull_request_template.md",
                         save_as = file.path(".github", "pull_request_template.md"),
                         package = "rodev")
+  usethis::use_build_ignore(".github")
 }
 
 #' Use CONTRIBUTING template
@@ -32,4 +34,5 @@ use_contributing_template <- function(package_name){
                         save_as = file.path(".github", "CONTRIBUTING.md"),
                         package = "rodev",
                         data = list(package = package_name))
+  usethis::use_build_ignore(".github")
 }
