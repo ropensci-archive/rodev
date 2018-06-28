@@ -2,7 +2,7 @@
 % Please edit documentation in R/use_review_badge.R
 \name{use_review_badge}
 \alias{use_review_badge}
-\title{Title}
+\title{Use rOpenSci review badge}
 \usage{
 use_review_badge(onboarding_issue_id)
 }
@@ -13,7 +13,7 @@ use_review_badge(onboarding_issue_id)
 It will help you add the repostatus.org badge to your README.
 }
 \description{
-Title
+Use rOpenSci review badge
 }
 \examples{
 use_review_badge(24)

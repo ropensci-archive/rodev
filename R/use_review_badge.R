@@ -1,4 +1,4 @@
-#' Title
+#' Use rOpenSci review badge
 #'
 #' @param onboarding_issue_id Issue number of the onboarding thread of your package
 #'
