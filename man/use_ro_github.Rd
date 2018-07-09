@@ -9,3 +9,6 @@ use_ro_github(package_name)
 \arguments{
 \item{package_name}{Package name}
 }
+\description{
+Add templates in .github
+}

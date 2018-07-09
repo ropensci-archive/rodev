@@ -1,3 +1,5 @@
+^docs$
+^_pkgdown\.yml$
 ^\.github$
 ^rodev\.Rproj$
 ^\.Rproj\.user$
