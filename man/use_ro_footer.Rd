@@ -9,6 +9,3 @@ use_ro_footer()
 \description{
 Use rOpenSci footer
 }
-\examples{
-use_ro_footer()
-}

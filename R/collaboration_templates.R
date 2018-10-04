@@ -1,6 +1,4 @@
-#' Use issue template
-#'
-#'
+# Use issue template
 use_issue_template <- function(){
   fs::dir_create(".github")
   usethis::use_template(template = "issue_template.md",
@@ -9,9 +7,7 @@ use_issue_template <- function(){
 
 }
 
-#' Use pull request template
-#'
-#'
+# Use pull request template
 use_pull_request_template <- function(){
   fs::dir_create(".github")
   usethis::use_template(template = "pull_request_template.md",
@@ -20,8 +16,7 @@ use_pull_request_template <- function(){
 
 }
 
-#' Use CONTRIBUTING template
-
+# Use CONTRIBUTING template
 use_contributing_template <- function(package_name){
   fs::dir_create(".github")
   usethis::use_template(template = "CONTRIBUTING.md",

@@ -16,5 +16,7 @@ It will help you add the repostatus.org badge to your README.
 Use repostatus.org Badge
 }
 \examples{
+\dontrun{
 use_repostatus_badge("wip")
+}
 }

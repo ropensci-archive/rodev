@@ -16,5 +16,7 @@ It will help you add the repostatus.org badge to your README.
 Use rOpenSci review badge
 }
 \examples{
+\dontrun{
 use_review_badge(24)
+}
 }

@@ -9,6 +9,3 @@ read_pkg_guide()
 \description{
 Browse packaging guidelines
 }
-\examples{
-read_pkg_guide()
-}
