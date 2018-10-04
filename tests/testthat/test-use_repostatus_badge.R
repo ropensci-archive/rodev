@@ -6,6 +6,6 @@ test_that("use_repostatus_badge checks whether the status exists", {
 })
 
 test_that("use_repostatus_badge doesn't fail", {
-  skip_on_travis()
+  pkg <- scoped_temporary_package()
   expect_output(use_repostatus_badge("suspended"))
 })
