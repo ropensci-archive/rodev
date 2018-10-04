@@ -4,9 +4,8 @@
 #'
 #' @export
 add_ro_fnd <- function(path = getwd()){
-  descr <- desc::desc(file.path(path, "DESCRIPTION"))
-  descr$add_author(given = "rOpenSci",
-                   role = "fnd",
-                   comment = "https://ropensci.org/")
-  descr$write("DESCRIPTION")
+  desc::desc_add_author(file = file.path(path, "DESCRIPTION"),
+                        given = "rOpenSci",
+                       role = "fnd",
+                       comment = "https://ropensci.org/")
 }

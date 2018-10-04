@@ -1,3 +1,10 @@
+# from desc
+# https://github.com/r-lib/desc/blob/4f60833fdb6d1aae4cbf09b7eb293c5fa0770e5c/tests/testthat/helper.R#L2
+temp_desc <- function(file = "D2") {
+  tmp <- tempdir()
+  file.copy(file, file.path(tmp, "DESCRIPTION"))
+  file.path(tmp, "DESCRIPTION")
+}
 # from https://github.com/r-lib/usethis/blob/89d5a39cd220a3f319f8b7ea471268053bf1cfbe/tests/testthat/helper.R
 
 ## attempt to activate a project, which is nice during development

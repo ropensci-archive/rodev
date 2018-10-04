@@ -10,8 +10,8 @@ The goal of rodev is to help rOpenSci package developpers with common tasks, and
 You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("ropenscilabs/rodev")
+# install.packages("remotes")
+remotes::install_github("ropenscilabs/rodev")
 ```
 ## Functions
 
@@ -30,6 +30,9 @@ read_pkg_guide()
 
 # add rOpenSci as a funder (for staff packages)
 add_ro_fnd()
+
+# add rOpenSci peer-review (for onboarded packages)
+add_ro_desc()
 
 # add templates for issues, PR and CONTRIBUTING
 use_ro_github(package_name = "blabla")

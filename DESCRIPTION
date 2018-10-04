@@ -1,7 +1,9 @@
 Package: rodev
 Version: 0.0.0.9000
 Title: Helper for rOpenSci Package Developpers
-Description: The package doesn't do much at the moment.
+Description: Provides helpers for rOpenSci package developpers,
+  mostly helping with metadata management (badges, DESCRIPTION) 
+  and GitHub infrastructure (GitHub issue and PR templates).
 Authors@R: 
     c(person(given = "Maëlle",
              family = "Salmon",
