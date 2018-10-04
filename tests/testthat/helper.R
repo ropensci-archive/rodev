@@ -35,7 +35,7 @@ scoped_temporary_thing <- function(dir = fs::file_temp(pattern = pattern),
     stop_glue("Target {code('dir')} {value(dir)} already exists.")
   }
 
-  old_project <- usethis:::proj_get_()
+  old_project <- proj_get_()
   ## Can't schedule a deferred project reset if calling this from the R
   ## console, which is useful when developing tests
   if (identical(env, globalenv())) {
@@ -59,3 +59,7 @@ scoped_temporary_thing <- function(dir = fs::file_temp(pattern = pattern),
   )
   invisible(dir)
 }
+
+proj <- new.env(parent = emptyenv())
+
+proj_get_ <- function() proj$cur
