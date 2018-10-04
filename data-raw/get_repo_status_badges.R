@@ -6,7 +6,7 @@ get_name <- function(md_code){
 }
 
 get_src <- function(md_code){
-  src <- stringr::str_extract(md_code, "\\]\\(http(.*?)\\)")
+  src <- stringr::str_extract(md_code, "\\]\\(https(.*?)\\)")
   src <- stringr::str_remove(src, "\\]\\(")
   src <- stringr::str_remove(src, "\\)")
   src
@@ -14,7 +14,7 @@ get_src <- function(md_code){
 
 get_href <- function(md_code){
   href <- stringr::str_extract(md_code, "#[a-z]*")
-  href <- paste0("http://www.repostatus.org/", href)
+  href <- paste0("https://www.repostatus.org/", href)
   href
 }
 
@@ -73,7 +73,8 @@ get_badge_code <- function(status){
     as.character()  %>%
     stringr::str_remove_all('\\\"')%>%
     stringr::str_replace("\\).n", ")") %>%
-    stringr::str_replace("â€“", "–")
+    stringr::str_replace("â€“", "–") %>%
+    stringr::str_replace("http\\:", "https:")
 
   tibble::tibble(status = status,
                  md_code = md_code,
@@ -83,6 +84,7 @@ get_badge_code <- function(status){
 }
 
 repostatus_badges <- purrr::map_df(status, get_badge_code)
+
 
 
 

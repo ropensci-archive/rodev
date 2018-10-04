@@ -33,6 +33,6 @@ Imports:
     fs
 URL: https://github.com/ropenscilabs/rodev
 BugReports: https://github.com/ropenscilabs/rodev/issues
-RoxygenNote: 6.0.1.9000
-Remotes:  
+RoxygenNote: 6.1.0.9000
+Remotes: 
     r-lib/usethis

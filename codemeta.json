@@ -211,11 +211,12 @@
   "contIntegration": "https://travis-ci.org/ropenscilabs/rodev",
   "developmentStatus": "wip",
   "readme": "https://github.com/ropenscilabs/rodev/blob/master/README.md",
-  "fileSize": "10.184KB",
+  "fileSize": "11.683KB",
   "funder": [
     {
       "@type": "Organization",
       "name": "rOpenSci"
     }
-  ]
+  ],
+  "keywords": ["r", "r-package", "rstats"]
 }
