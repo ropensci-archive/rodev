@@ -63,3 +63,7 @@ scoped_temporary_thing <- function(dir = fs::file_temp(pattern = pattern),
 proj <- new.env(parent = emptyenv())
 
 proj_get_ <- function() proj$cur
+
+expect_error_free <- function(...) {
+  expect_error(..., regexp = NA)
+}
