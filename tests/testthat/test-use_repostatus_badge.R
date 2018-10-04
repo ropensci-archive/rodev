@@ -6,5 +6,6 @@ test_that("use_repostatus_badge checks whether the status exists", {
 })
 
 test_that("use_repostatus_badge doesn't fail", {
+  skip_on_travis()
   expect_output(use_repostatus_badge("suspended"))
 })
