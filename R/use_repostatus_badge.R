@@ -6,7 +6,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' use_repostatus_badge("wip")
+#' }
 use_repostatus_badge <- function(status){
   # inspired by https://github.com/r-lib/usethis/blob/master/R/badge.R
   # so probably needs proper credit!

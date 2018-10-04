@@ -6,6 +6,8 @@
 ^LICENSE\.md$
 ^data-raw$
 ^\.travis\.yml$
+^\.appveyor\.yml$
+^tic\.R$
 ^codecov\.yml$
 ^CODE_OF_CONDUCT\.md$
 ^codemeta\.json$

@@ -6,7 +6,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' use_review_badge(24)
+#' }
 use_review_badge <- function(onboarding_issue_id){
 
   src <- glue::glue("https://badges.ropensci.org/{onboarding_issue_id}_status.svg")
