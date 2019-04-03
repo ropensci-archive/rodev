@@ -13,6 +13,11 @@ You can install the development version from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("ropenscilabs/rodev")
 ```
+
+## Active project
+
+All functions will work on the active project, by default the current directory. It is not possible to change this at the moment.
+
 ## Functions
 
 ``` r
@@ -36,6 +41,9 @@ add_ro_desc()
 
 # add templates for issues, PR and CONTRIBUTING
 use_ro_github(package_name = "blabla")
+
+# use rOpenSci template pkgdown config file
+use_ro_pkgdown()
 ```
 
 See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.
