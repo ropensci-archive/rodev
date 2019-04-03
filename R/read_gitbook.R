@@ -2,7 +2,7 @@
 #'
 #' @export
 read_pkg_guide <- function(){
-  view_url(glue::glue("{gitbook_url()}building.html"))
+  browseURL(glue::glue("{gitbook_url()}building.html"))
 }
 
 
