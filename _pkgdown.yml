@@ -1,3 +1,11 @@
+template:
+  package: rotemplate
+
+destination: docs
+
+toc:
+  depth: 3
+
 authors:
   rOpenSci:
     href: "https://ropensci.org"
