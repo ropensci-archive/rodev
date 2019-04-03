@@ -44,6 +44,9 @@ use_ro_github(package_name = "blabla")
 
 # use rOpenSci template pkgdown config file
 use_ro_pkgdown()
+
+# use rOpenSci favicon for pkgdown
+use_ro_favicon()
 ```
 
 See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.
