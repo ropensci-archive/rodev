@@ -43,7 +43,10 @@ for further details.
 
 ### Discussion forum
 
-Check out our [discussion forum](https://discuss.ropensci.org) if you think your issue requires a longer form discussion.
+Check out our [discussion forum](https://discuss.ropensci.org) if
+
+* you have a question, an use case, or otherwise not a bug or feature request for the software itself.
+* you think your issue requires a longer form discussion.
 
 ### Prefer to Email? 
 
