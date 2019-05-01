@@ -19,7 +19,8 @@ LazyData: true
 ByteCompile: true
 Suggests: 
     testthat,
-    covr
+    covr,
+    withr
 Imports: 
     rmarkdown,
     rstudioapi,
