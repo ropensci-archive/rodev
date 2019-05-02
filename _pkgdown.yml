@@ -11,5 +11,30 @@ authors:
     href: "https://ropensci.org"
     html: "<img src='https://github.com/ropensci.png' height=24>"
 
-  Maëlle Salmon:
-    href: "https://masalmon.eu"
+reference:
+- title: rOpenSci best practice
+  desc: ~
+  contents:
+  - '`repostatus_badges`'
+  - '`use_repostatus_badge`'
+  - '`use_ro_github`'
+
+
+- title: rOpenSci branding
+  desc: ~
+  contents:
+  - '`use_ro_footer`'
+  - '`use_ro_pkgdown`'
+  - '`use_ro_favicon`'
+
+- title: Peer-review
+  desc: ~
+  contents:
+  - '`read_pkg_guide`'
+  - '`use_review_badge`'
+  - '`add_ro_desc`'
+
+- title: Functions for rOpenSci staff
+  desc: ~
+  contents:
+  - '`add_ro_fnd`'

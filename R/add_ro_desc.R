@@ -1,5 +1,8 @@
 #' Add rOpenSci review mention to DESCRIPTION
 #'
+#' Add rOpenSci review mention to DESCRIPTION. Only run this
+#' after your package has been approved.
+#'
 #' @param path path to package
 #'
 #' @export

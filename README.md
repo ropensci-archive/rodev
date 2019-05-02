@@ -2,7 +2,6 @@
 
 [![Travis build status](https://travis-ci.com/ropenscilabs/rodev.svg?branch=master)](https://travis-ci.com/ropenscilabs/rodev) [![Coverage status](https://codecov.io/gh/ropenscilabs/rodev/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/rodev?branch=master) [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 
-
 The goal of rodev is to help rOpenSci package developpers with common tasks, and to promote best practices like the use of status badges across the entire suite.
 
 ## Installation
@@ -20,34 +19,7 @@ All functions will work on the active project, by default the current directory.
 
 ## Functions
 
-``` r
-# add a repostatus.org badge
-use_repostatus_badge("wip")
-
-# get the peer-review badge corresponding to onboarding issue 24
-use_review_badge(24)
-
-# get rOpenSci footer
-use_ro_footer()
-
-# browse the packaging guide
-read_pkg_guide()
-
-# add rOpenSci as a funder (for staff packages)
-add_ro_fnd()
-
-# add rOpenSci peer-review (for onboarded packages)
-add_ro_desc()
-
-# add templates for issues, PR and CONTRIBUTING
-use_ro_github(package_name = "blabla")
-
-# use rOpenSci template pkgdown config file
-use_ro_pkgdown()
-
-# use rOpenSci favicon for pkgdown
-use_ro_favicon()
-```
+Refer to the [reference](https://ropenscilabs.github.io/rodev/reference/index.html).
 
 See the [issue tracker](https://github.com/ropenscilabs/rodev/issues) for feature suggestions.
 

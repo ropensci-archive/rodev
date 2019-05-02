@@ -10,5 +10,6 @@ add_ro_desc(path = getwd())
 \item{path}{path to package}
 }
 \description{
-Add rOpenSci review mention to DESCRIPTION
+Add rOpenSci review mention to DESCRIPTION. Only run this
+after your package has been approved.
 }
