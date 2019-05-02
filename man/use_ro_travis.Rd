@@ -4,7 +4,16 @@
 \alias{use_ro_travis}
 \title{Setup Travis à la rOpenSci}
 \usage{
-use_ro_travis()
+use_ro_travis(browse = interactive(), ext = c("org", "com"))
+}
+\arguments{
+\item{browse}{(passed to \code{usethis::use_travis()}).
+Open a browser window to enable automatic builds for the
+  package.}
+
+\item{ext}{(passed to \code{usethis::use_travis()}).
+which Travis website to use. default to "org"for
+ https://travis-ci.org. Change to "com" for https://travis-ci.com.}
 }
 \description{
 Setup Travis with checks on 3 R versions
