@@ -38,3 +38,4 @@ reference:
   desc: ~
   contents:
   - '`add_ro_fnd`'
+  - '`use_ro_aut_pkgdown`'
