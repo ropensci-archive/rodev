@@ -18,6 +18,7 @@ reference:
   - '`repostatus_badges`'
   - '`use_repostatus_badge`'
   - '`use_ro_github`'
+  - '`use_ro_travis`'
 
 
 - title: rOpenSci branding
