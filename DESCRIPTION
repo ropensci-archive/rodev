@@ -31,7 +31,7 @@ Imports:
     yaml
 Suggests: 
     covr,
-    testthat,
+    testthat (>= 2.1.0),
     withr
 Remotes: 
     r-lib/usethis

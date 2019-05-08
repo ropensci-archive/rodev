@@ -21,12 +21,13 @@ reference:
   - '`use_ro_travis`'
 
 
-- title: rOpenSci branding
+- title: rOpenSci branding and docs
   desc: ~
   contents:
   - '`use_ro_footer`'
   - '`use_ro_pkgdown`'
   - '`use_ro_favicon`'
+  - '`optout_rodocs`'
 
 - title: Peer-review
   desc: ~
