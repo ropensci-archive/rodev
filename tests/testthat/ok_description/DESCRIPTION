@@ -1,0 +1,38 @@
+Package: rodev
+Version: 0.0.0.9000
+Title: Helper for rOpenSci Package Developpers
+Description: Provides helpers for rOpenSci package developpers,
+  mostly helping with metadata management (badges, DESCRIPTION) 
+  and GitHub infrastructure (GitHub issue and PR templates).
+Authors@R: 
+    c(person(given = "Maëlle",
+             family = "Salmon",
+             role = c("aut", "cre"),
+             email = "maelle.salmon@yahoo.se",
+             comment = c(ORCID = "0000-0002-2815-0399")))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Suggests: 
+    testthat,
+    covr,
+    withr
+Imports: 
+    rmarkdown,
+    rstudioapi,
+    yaml,
+    stringr,
+    gh,
+    glue,
+    clipr,
+    crayon,
+    clisymbols,
+    usethis,
+    desc,
+    fs
+URL: https://github.com/ropenscilabs/rodev
+BugReports: https://github.com/ropenscilabs/rodev/issues
+RoxygenNote: 6.1.1
+Remotes: 
+    r-lib/usethis

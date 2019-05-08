@@ -4,6 +4,15 @@
 #'
 #' @export
 add_ro_fnd <- function(path = getwd()){
+
+  if (is(try(desc::desc_get_authors(file.path(path,
+                                              "DESCRIPTION")),
+             silent = TRUE),
+         "try-error")) {
+    stop("Your DESCRIPTION needs to use the Authors@R field.",
+         call. = FALSE)
+  }
+
   desc::desc_add_author(file = file.path(path, "DESCRIPTION"),
                         given = "rOpenSci",
                        role = "fnd",
