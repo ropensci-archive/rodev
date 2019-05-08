@@ -7,13 +7,27 @@
 use_repostatus_badge(status)
 }
 \arguments{
-\item{status}{current status of the project, cf \url{repostatus.org}}
+\item{status}{current status of the project, cf and details.}
 }
 \value{
 It will help you add the repostatus.org badge to your README.
 }
 \description{
 Use repostatus.org Badge
+}
+\details{
+Possible statuses are \code{rodev::repostatus_badges$status},
+\itemize{
+\item abandoned
+\item active
+\item concept
+\item inactive
+\item moved
+\item suspended
+\item unsupported
+\item wip
+}
+For more details refer to \url{repostatus.org}.
 }
 \examples{
 \dontrun{

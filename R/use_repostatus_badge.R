@@ -1,6 +1,19 @@
 #' Use repostatus.org Badge
 #'
-#' @param status current status of the project, cf \url{repostatus.org}
+#' @param status current status of the project, cf and details.
+#'
+#' @details Possible statuses are \code{rodev::repostatus_badges$status},
+#' \itemize{
+#' \item abandoned
+#' \item active
+#' \item concept
+#' \item inactive
+#' \item moved
+#' \item suspended
+#' \item unsupported
+#' \item wip
+#' }
+#' For more details refer to \url{repostatus.org}.
 #'
 #' @return It will help you add the repostatus.org badge to your README.
 #' @export
