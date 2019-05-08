@@ -29,7 +29,11 @@ use_contributing_template <- function(package_name){
 
 }
 
-#' @title Add templates in .github
+#' @title Add collaboration files in .github
+#'
+#' @description Add issue, PR templates and CONTRIBUTING.md file
+#' in .github
+#'
 #' @param package_name Package name
 #'
 #' @export

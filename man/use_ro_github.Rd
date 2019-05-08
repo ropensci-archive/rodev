@@ -2,7 +2,7 @@
 % Please edit documentation in R/collaboration_templates.R
 \name{use_ro_github}
 \alias{use_ro_github}
-\title{Add templates in .github}
+\title{Add collaboration files in .github}
 \usage{
 use_ro_github(package_name)
 }
@@ -10,5 +10,6 @@ use_ro_github(package_name)
 \item{package_name}{Package name}
 }
 \description{
-Add templates in .github
+Add issue, PR templates and CONTRIBUTING.md file
+in .github
 }
