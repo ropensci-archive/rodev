@@ -1,7 +1,7 @@
 context("test-use_review_badge.R")
 
 test_that("use_review_badge doesn't fail", {
-  skip_on_travis()
-  pkg <- scoped_temporary_package()
+  usethis::proj_set(force = TRUE)
   expect_output(use_review_badge(24))
+  usethis::proj_set(NULL)
 })
