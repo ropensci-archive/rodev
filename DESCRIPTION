@@ -33,7 +33,8 @@ Imports:
     clisymbols,
     usethis,
     desc,
-    fs
+    fs,
+    methods
 URL: https://github.com/ropenscilabs/rodev
 BugReports: https://github.com/ropenscilabs/rodev/issues
 RoxygenNote: 6.1.1
