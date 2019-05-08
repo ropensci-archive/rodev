@@ -30,7 +30,8 @@ use_contributing_template <- function(package_name){
 #' @param package_name Package name
 #'
 #' @export
-use_ro_github <- function(package_name){
+use_ro_github <- function(package_name = desc::desc_get_field("Package",
+                                                              file = usethis::proj_get())){
   use_issue_template()
   use_pull_request_template()
   use_contributing_template(package_name = package_name)
