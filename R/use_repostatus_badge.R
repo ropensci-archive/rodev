@@ -1,6 +1,6 @@
 #' Use repostatus.org Badge
 #'
-#' @param status current status of the project, cf and details.
+#' @param status current status of the project, cf details.
 #'
 #' @details Possible statuses are \code{rodev::repostatus_badges$status},
 #' \itemize{
