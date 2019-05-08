@@ -11,4 +11,5 @@
 #'
 optout_rodocs <- function(path = usethis::proj_get()){
   file.create(".norodocs")
+  usethis::use_build_ignore(".norodocs")
 }
