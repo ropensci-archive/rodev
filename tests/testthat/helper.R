@@ -35,11 +35,11 @@ scoped_temporary_thing <- function(dir = fs::file_temp(pattern = pattern),
     stop_glue("Target {code('dir')} {value(dir)} already exists.")
   }
 
-  old_project <- proj_get_()
+  old_project <- usethis::proj_get()
   ## Can't schedule a deferred project reset if calling this from the R
   ## console, which is useful when developing tests
   if (identical(env, globalenv())) {
-    done("Switching to a temporary project!")
+    message("Switching to a temporary project!")
     if (!is.null(old_project)) {
       todo(
         "Restore current project with: ",
@@ -62,15 +62,13 @@ scoped_temporary_thing <- function(dir = fs::file_temp(pattern = pattern),
 
 proj <- new.env(parent = emptyenv())
 
-proj_get_ <- function() proj$cur
-
 expect_error_free <- function(...) {
   expect_error(..., regexp = NA)
 }
 
 
-is_build_ignored <- function(pattern, ..., base_path = proj_get()) {
-  lines <- readLines(path(base_path, ".Rbuildignore"), warn = FALSE)
+is_build_ignored <- function(pattern, ..., base_path = usethis::proj_get()) {
+  lines <- readLines(file.path(base_path, ".Rbuildignore"), warn = FALSE)
   length(grep(pattern, x = lines, fixed = TRUE, ...)) > 0
 }
 
