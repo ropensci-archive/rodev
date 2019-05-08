@@ -4,7 +4,7 @@
 \alias{optout_rodocs}
 \title{Opt out of rOpenSci docs website building}
 \usage{
-optout_rodocs(path = getwd())
+optout_rodocs(path = usethis::proj_get())
 }
 \arguments{
 \item{path}{path to package}
