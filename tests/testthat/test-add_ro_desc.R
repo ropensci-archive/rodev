@@ -1,10 +1,12 @@
 context("test-add_ro_desc")
 
 test_that("add_ro_desc works", {
-  d <- temp_desc()
-  on.exit(unlink(d))
-  add_ro_desc(fs::path_dir(d))
+  dir.create("testd")
+  d <- desc::desc()
+  d$write(file = file.path("testd", "DESCRIPTION"))
+  on.exit(fs::dir_delete("testd"))
+  add_ro_desc("testd")
   expect_match(desc::desc_get_field("Description",
-                                    file = d),
+                                    file = "testd/DESCRIPTION"),
                "has been peer-reviewed by rOpenSci" )
 })
