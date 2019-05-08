@@ -16,5 +16,6 @@ use_ro_pkgdown <- function(){
 #'
 use_ro_favicon <- function(){
   fs::dir_copy(system.file("pkgdown", package = "rodev"),
-               "pkgdown")
+               file.path(usethis::proj_get(),
+                         "pkgdown"))
 }

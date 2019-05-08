@@ -4,7 +4,7 @@
 \alias{add_ro_fnd}
 \title{Add rOpenSci as funder to DESCRIPTION}
 \usage{
-add_ro_fnd(path = getwd())
+add_ro_fnd(path = usethis::proj_get())
 }
 \arguments{
 \item{path}{path to package}
