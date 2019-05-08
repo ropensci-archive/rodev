@@ -9,6 +9,6 @@
 #' nothing else has to be done.
 #' @export
 #'
-optout_rodocs <- function(path = getwd()){
+optout_rodocs <- function(path = usethis::proj_get()){
   file.create(".norodocs")
 }
