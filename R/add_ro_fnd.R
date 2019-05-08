@@ -5,7 +5,7 @@
 #' @export
 add_ro_fnd <- function(path = getwd()){
 
-  if (is(try(desc::desc_get_authors(file.path(path,
+  if (methods::is(try(desc::desc_get_authors(file.path(path,
                                               "DESCRIPTION")),
              silent = TRUE),
          "try-error")) {
