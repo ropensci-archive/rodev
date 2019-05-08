@@ -12,5 +12,7 @@
 #' @export
 use_ro_travis <- function(browse = interactive(), ext = c("org", "com")){
   usethis::use_travis(browse = browse, ext = ext)
-  usethis::use_template(".travis.yml", package = "rodev")
+  usethis::use_template("travis.yml",
+                        save_as = ".travis.yml",
+                        package = "rodev")
 }
