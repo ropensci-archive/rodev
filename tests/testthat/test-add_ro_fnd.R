@@ -2,10 +2,10 @@ context("test-add_ro_fnd")
 
 test_that("add_ro_fnd works", {
   d <- testthat::test_path("ok_description")
-  fs::dir_copy(d, "testd")
-  on.exit(fs::dir_delete("testd"))
-  add_ro_fnd("testd")
-  expect_equal(format(desc::desc_get_authors("testd")[2]),
+  fs::dir_copy(d, "testd2")
+  on.exit(fs::dir_delete("testd2"))
+  add_ro_fnd("testd2")
+  expect_equal(format(desc::desc_get_authors("testd2")[2]),
                "rOpenSci [fnd] (https://ropensci.org/)" )
 })
 
