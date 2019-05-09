@@ -4,7 +4,7 @@
 \alias{add_ro_desc}
 \title{Add rOpenSci review mention to DESCRIPTION}
 \usage{
-add_ro_desc(path = getwd())
+add_ro_desc(path = usethis::proj_get())
 }
 \arguments{
 \item{path}{path to package}

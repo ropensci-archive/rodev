@@ -24,7 +24,6 @@ Imports:
     fs,
     gh,
     glue,
-    methods,
     rmarkdown,
     rstudioapi,
     stringr,

@@ -7,7 +7,7 @@
 use_repostatus_badge(status)
 }
 \arguments{
-\item{status}{current status of the project, cf and details.}
+\item{status}{current status of the project, cf details.}
 }
 \value{
 It will help you add the repostatus.org badge to your README.

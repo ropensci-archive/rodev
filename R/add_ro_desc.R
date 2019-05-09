@@ -6,7 +6,7 @@
 #' @param path path to package
 #'
 #' @export
-add_ro_desc <- function(path = getwd()){
+add_ro_desc <- function(path = usethis::proj_get()){
   file <- file.path(path, "DESCRIPTION")
   version <- desc::desc_get_version(file = file)
   description <- desc::desc_get_field("Description",
