@@ -1,6 +1,6 @@
 Package: rodev
 Title: Helper for rOpenSci Package Developpers
-Version: 0.0.0.9000
+Version: 0.0.1.900
 Authors@R: 
     c(person(given = "Maëlle",
              family = "Salmon",
