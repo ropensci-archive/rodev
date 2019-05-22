@@ -17,6 +17,7 @@ reference:
   contents:
   - '`repostatus_badges`'
   - '`use_repostatus_badge`'
+  - '`use_cchecks_badge`'
   - '`use_ro_github`'
   - '`use_ro_travis`'
 

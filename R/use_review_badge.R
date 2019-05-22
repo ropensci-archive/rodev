@@ -2,7 +2,7 @@
 #'
 #' @param onboarding_issue_id Issue number of the onboarding thread of your package
 #'
-#' @return It will help you add the repostatus.org badge to your README.
+#' @return It will help you add the rOpenSci review badge to your README.
 #' @export
 #'
 #' @examples

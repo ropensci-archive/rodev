@@ -10,7 +10,7 @@ use_review_badge(onboarding_issue_id)
 \item{onboarding_issue_id}{Issue number of the onboarding thread of your package}
 }
 \value{
-It will help you add the repostatus.org badge to your README.
+It will help you add the rOpenSci review badge to your README.
 }
 \description{
 Use rOpenSci review badge
