@@ -13,7 +13,7 @@ use_review_badge <- function(onboarding_issue_id){
 
   src <- glue::glue("https://badges.ropensci.org/{onboarding_issue_id}_status.svg")
   badge_name <- "peer-review"
-  href <- glue::glue("https://github.com/ropensci/onboarding/issues/{onboarding_issue_id}")
+  href <- glue::glue("https://github.com/ropensci/software-review/issues/{onboarding_issue_id}")
 
   usethis::use_badge(badge_name, href, src)
 }
