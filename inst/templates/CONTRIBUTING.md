@@ -38,7 +38,7 @@ Please note that the {{{ package }}} project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this
 project you agree to abide by its terms.
 
-### See rOpenSci [contributing guide](https://ropensci.github.io/dev_guide/contributingguide.html)
+### See rOpenSci [contributing guide](https://devguide.ropensci.org/contributingguide.html)
 for further details.
 
 ### Discussion forum

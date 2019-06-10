@@ -7,5 +7,5 @@ read_pkg_guide <- function(){
 
 
 gitbook_url <- function(){
-  "https://ropensci.github.io/dev_guide/"
+  "https://devguide.ropensci.org/"
 }
