@@ -12,7 +12,7 @@ use_cchecks_badge <- function(){
   package_name <- desc::desc_get_field("Package",
                                        file = usethis::proj_get())
 
-  src <- glue::glue("https://cranchecks.info/badges/summary/{package_name}")
+  src <- glue::glue("https://cranchecks.info/badges/worst/{package_name}")
   badge_name <- "CRAN checks"
   href <- glue::glue("https://cran.r-project.org/web/checks/check_results_{package_name}.html")
 
