@@ -28,7 +28,7 @@ reference:
   - '`use_ro_footer`'
   - '`use_ro_pkgdown`'
   - '`use_ro_favicon`'
-  - '`optout_rodocs`'
+  - '`use_docs_link`'
 
 - title: Peer-review
   desc: ~
