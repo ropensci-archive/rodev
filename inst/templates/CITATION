@@ -1,0 +1,19 @@
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+name <- meta$Package
+title <- meta$Title
+authors <- meta$Authors
+
+bibentry(bibtype = "Manual",
+         title = paste(name, title, sep = ": "),
+         author = authors,
+         year = year,
+         note = note,
+	 url = paste0("https://docs.ropensci.org/",
+	 name))
+
+ textVersion = paste0(toString(authors),
+ ", (", year, ").",
+  paste(name, title, sep = ": "),
+  note, ".",
+paste0(" https://CRAN.R-project.org/package=", name))
