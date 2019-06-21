@@ -11,7 +11,7 @@ use_issue_template <- function(){
 # Use pull request template
 use_pull_request_template <- function(){
   fs::dir_create(file.path(usethis::proj_get(),
-                           ".github",))
+                           ".github"))
   usethis::use_template(template = "pull_request_template.md",
                         save_as = file.path(".github", "pull_request_template.md"),
                         package = "rodev")
