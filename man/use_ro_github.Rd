@@ -4,8 +4,9 @@
 \alias{use_ro_github}
 \title{Add collaboration files in .github}
 \usage{
-use_ro_github(package_name = desc::desc_get_field("Package", file =
-  usethis::proj_get()))
+use_ro_github(
+  package_name = desc::desc_get_field("Package", file = usethis::proj_get())
+)
 }
 \arguments{
 \item{package_name}{Package name}
