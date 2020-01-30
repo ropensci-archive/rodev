@@ -27,6 +27,7 @@ prepare_submission <- function(pkg = usethis::proj_get()) {
     "submission_template.md",
     save_as = file.path(
       pkg,
+      "inst",
       "ropensci-submission.md"),
     data = list(
       githubusername = githubusername,
@@ -62,7 +63,7 @@ post_submission <- function(pkg = usethis::proj_get()) {
 
   submission <- projmgr::post_issue(ref = ref,
                       title = glue::glue("Submission: {pkgname}"),
-                      body = glue::glue_collapse(readLines(file.path(pkg, "ropensci-submission.md")),
+                      body = glue::glue_collapse(readLines(file.path(pkg, "inst", "ropensci-submission.md")),
                                                  sep = "\n"))
 
   projmgr::browse_issues(ref, number = submission)
