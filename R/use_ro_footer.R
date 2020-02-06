@@ -1,8 +1,9 @@
 #' Use rOpenSci footer
 #'
+#' No longer recommended!
+#'
 #' @export
 use_ro_footer <- function(){
-  usethis::use_badge(badge_name = "rOpenSci footer",
-                     src = "http://ropensci.org/public_images/github_footer.png",
-                     href = "https://ropensci.org")
+  stop("We no longer recommend adding an rOpenSci footer to the README.",
+       call. = FALSE)
 }

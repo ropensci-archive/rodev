@@ -25,9 +25,6 @@ reference:
 - title: rOpenSci branding and docs
   desc: ~
   contents:
-  - '`use_ro_footer`'
-  - '`use_ro_pkgdown`'
-  - '`use_ro_favicon`'
   - '`use_docs_link`'
 
 - title: Peer-review
@@ -35,7 +32,6 @@ reference:
   contents:
   - '`read_pkg_guide`'
   - '`use_review_badge`'
-  - '`add_ro_desc`'
 
 - title: Functions for rOpenSci staff
   desc: ~
