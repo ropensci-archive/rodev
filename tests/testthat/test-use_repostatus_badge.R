@@ -7,6 +7,6 @@ test_that("use_repostatus_badge checks whether the status exists", {
 
 test_that("use_repostatus_badge doesn't fail", {
   usethis::proj_set(force = TRUE)
-  expect_output(use_repostatus_badge("suspended"))
+  expect_message(use_repostatus_badge("suspended"))
   usethis::proj_set(NULL)
 })

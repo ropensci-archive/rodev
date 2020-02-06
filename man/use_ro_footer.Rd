@@ -7,5 +7,5 @@
 use_ro_footer()
 }
 \description{
-Use rOpenSci footer
+No longer recommended!
 }
