@@ -13,7 +13,7 @@
 #' \item unsupported
 #' \item wip
 #' }
-#' For more details refer to \url{repostatus.org}.
+#' For more details refer to \url{https://www.repostatus.org}.
 #'
 #' @return It will help you add the repostatus.org badge to your README.
 #' @export
