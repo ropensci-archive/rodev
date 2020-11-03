@@ -7,6 +7,10 @@ Authors@R:
              role = c("aut", "cre"),
              email = "maelle.salmon@yahoo.se",
              comment = c(ORCID = "0000-0002-2815-0399")),
+      person(given = "Daniel", 
+             family = "Possenriede", 
+             role = "ctb", 
+             comment = c(ORCID = "0000-0002-6738-9845")),
       person(given = "rOpenSci",
              role = "fnd",
              comment = "https://ropensci.org/"))

@@ -27,7 +27,7 @@ Possible statuses are \code{rodev::repostatus_badges$status},
 \item unsupported
 \item wip
 }
-For more details refer to \url{repostatus.org}.
+For more details refer to \url{https://www.repostatus.org}.
 }
 \examples{
 \dontrun{
