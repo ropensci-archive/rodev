@@ -4,7 +4,9 @@
 \name{repostatus_badges}
 \alias{repostatus_badges}
 \title{Names and Markdown code of repostatus.org badges}
-\format{A data.frame with columns status (lowercase) and md_code.}
+\format{
+A data.frame with columns status (lowercase) and md_code.
+}
 \source{
 \url{http://www.repostatus.org/}
 }

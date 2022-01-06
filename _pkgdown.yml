@@ -6,11 +6,6 @@ destination: docs
 toc:
   depth: 3
 
-authors:
-  rOpenSci:
-    href: "https://ropensci.org"
-    html: "<img src='https://github.com/ropensci.png' height=24>"
-
 reference:
 - title: rOpenSci best practice
   desc: ~
@@ -18,8 +13,6 @@ reference:
   - '`repostatus_badges`'
   - '`use_repostatus_badge`'
   - '`use_cchecks_badge`'
-  - '`use_ro_github`'
-  - '`use_ro_travis`'
 
 
 - title: rOpenSci branding and docs
@@ -37,4 +30,9 @@ reference:
   desc: ~
   contents:
   - '`add_ro_fnd`'
-  - '`use_ro_aut_pkgdown`'
+
+- title: internal
+  contents:
+  - use_ro_github
+  - use_ro_footer
+  - add_ro_desc
